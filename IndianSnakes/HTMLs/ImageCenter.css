@@ -1,0 +1,12 @@
+/*
+How to center in CSS - http://stackoverflow.com/a/10797328/260665
+*/
+.wrapper
+{
+text-align: center;
+}
+
+.center_id
+{
+display: inline-block;
+}
