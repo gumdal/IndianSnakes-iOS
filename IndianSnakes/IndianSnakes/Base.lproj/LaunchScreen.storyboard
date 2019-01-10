@@ -23,9 +23,19 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashScreen_Name" translatesAutoresizingMaskIntoConstraints="NO" id="Ups-VW-8et">
                                 <rect key="frame" x="72" y="20" width="231" height="111"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ups-VW-8et" secondAttribute="height" multiplier="77:37" id="Iwf-3h-Std"/>
                                     <constraint firstAttribute="height" constant="111" id="upJ-2w-w6R"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEB-A1-ySb">
+                                <rect key="frame" x="170.5" y="131" width="34" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="tTY-oZ-eXH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashScreen_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="z2c-0q-CyX">
                                 <rect key="frame" x="284" y="572" width="75" height="79"/>
                                 <constraints>
@@ -38,11 +48,13 @@
                         <constraints>
                             <constraint firstItem="1Oe-4f-2GZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4Gg-TK-bqm"/>
                             <constraint firstItem="Ups-VW-8et" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="54e-Df-PHP"/>
+                            <constraint firstItem="UEB-A1-ySb" firstAttribute="top" secondItem="Ups-VW-8et" secondAttribute="bottom" id="FZo-aJ-0U5"/>
+                            <constraint firstAttribute="bottom" secondItem="1Oe-4f-2GZ" secondAttribute="bottom" id="GTW-5i-bwJ"/>
+                            <constraint firstItem="UEB-A1-ySb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="RrZ-B2-prw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="z2c-0q-CyX" secondAttribute="trailing" constant="16" id="Uub-LA-e9A"/>
                             <constraint firstItem="1Oe-4f-2GZ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="c1f-21-lbH"/>
-                            <constraint firstItem="1Oe-4f-2GZ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="cct-fd-VZj"/>
                             <constraint firstItem="1Oe-4f-2GZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ilg-dg-gr6"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="z2c-0q-CyX" secondAttribute="bottom" constant="16" id="k9a-EE-jwU"/>
+                            <constraint firstAttribute="bottom" secondItem="z2c-0q-CyX" secondAttribute="bottom" constant="16" id="k9a-EE-jwU"/>
                             <constraint firstItem="Ups-VW-8et" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nDl-2J-9p8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
